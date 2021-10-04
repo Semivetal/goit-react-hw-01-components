@@ -1,0 +1,34 @@
+.item {
+  display: flex;
+  padding: 5px 10px;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 2px 3px 4px -1px rgba(34, 60, 80, 0.2);
+  margin-bottom: 10px;
+}
+
+.isOnline,
+.isOffline {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.isOnline {
+  background-color: #4fc74f;
+}
+
+.isOffline {
+  background-color: tomato;
+}
+
+.avatar {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 500;
+}
